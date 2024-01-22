@@ -1,5 +1,5 @@
 # Bot_assistant
-## @Voice_converting_textBot - телеграм бот
+## @Voice_converting_textBot - телеграм бот который умеет удалять фон c изображения, конвертировать голос в текст, а PDF в mp3.
 
 Бот разработан с помощью библиотеки Telebot
 
@@ -26,7 +26,7 @@
 `python main.py`
 
 ### Как разместить бота на бесплатном хостинге pythonanywhere.com
-"""
+
 Переходим на https://www.pythonanywhere.com/
 1. Регистрируемся на сайте
 2. Создаем файл со скриптом бота:
@@ -38,4 +38,3 @@
     В открывшейся консоли выполняем команду `pip install pyTelegramBotAPI SpeechRecognition pydub`
     Запускаем бота командой `python tg_bot.py`
     Остановить бота можно комбинацией клавиш Ctrl+C
-"""
